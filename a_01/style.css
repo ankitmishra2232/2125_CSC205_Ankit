@@ -1,0 +1,100 @@
+*{
+    background-color:azure;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    border-bottom: 1%;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+#link{
+    text-decoration: none;
+    color:  rgb(7, 135, 129);
+}
+p .dottedUL{
+    text-decoration: underline;
+    text-decoration-style:dashed;
+    text-decoration-color: darkturquoise;
+    text-decoration-thickness: 1px;
+    color: rgba(0,0,0,0.5);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 16px;
+}
+p .underList{
+    color: rgba(0,0,0,0.5);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 16px;
+}
+#tick::before{
+    content: '\2714\0020';
+    color: rgb(7, 135, 129);
+}
+
+span{
+    font-size: xx-large;
+    color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+sup {
+    vertical-align: top;
+    font-size:large;
+    color: black;
+  }
+button{
+    color: aliceblue;
+    background-color: rgb(7, 135, 129);
+    width: 20vw;
+    height: 50px;
+    font-weight: bold;
+    font-size: large;
+}
+button:hover{
+    background: darkgreen;
+}
+div{
+    border: 0.5px solid darkgray;
+    padding-left: 3%;
+    padding-right: 3%;
+    /* padding-bottom: 5%; */
+    border-collapse: collapse;
+    float: left;
+    box-sizing: border-box;
+    width: 25%;
+    height: 650px;
+}
+.yellow{
+    background-color: yellow;
+    text-align: center;
+    text-transform: none;
+    position: absolute;
+    left: 25.35%;
+    right: 49.98%;
+    top: 0;
+    border: 15px solid yellow;
+
+  
+}
+a{
+    text-decoration: none;
+    color: rgba(0,0,0,0.5);
+}
+a:hover{
+    text-decoration: underline;
+    text-decoration-style:dashed;
+    text-decoration-color: black;
+    text-decoration-thickness: 1px;
+    color: black;
+}
+.every{
+    color: rgba(0,0,0,0.65);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+p{
+    color: rgba(0,0,0,0.75);
+}
+.blue{
+    color: rgb(7, 135, 129);
+}
+.blue:hover{
+    color: darkgreen;
+    text-decoration: underline;
+}
