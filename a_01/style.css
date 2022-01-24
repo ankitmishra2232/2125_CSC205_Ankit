@@ -23,7 +23,7 @@ p .underList{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 16px;
 }
-#tick::before{
+.tick::before{
     content: '\2714\0020';
     color: rgb(7, 135, 129);
 }
