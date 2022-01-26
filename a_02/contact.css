@@ -1,0 +1,46 @@
+*{
+    color:indigo;
+    text-align: center;
+}
+h1{
+    text-align: center;
+    color: black;
+    background-color: aqua;
+    text-decoration: underline;
+}
+b{
+    color: blue;
+}
+b:hover{
+    color: brown;
+}
+label{
+    color: brown;
+}
+
+div{
+    margin-left: 50px;
+}
+button{
+    margin-left: 50px;
+    color: aliceblue;
+    background-color: rgb(7, 135, 129);
+    width: 100px;
+    height: 40px;
+    font-weight: bold;
+    font-size: large;
+}
+button:hover{
+    background-color: crimson;
+}
+a{
+    text-decoration: none;
+    color: rgb(28, 42, 4);
+}
+a:hover{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+marquee{
+    color: red;
+    background-color: rgb(215, 221, 93);
+}

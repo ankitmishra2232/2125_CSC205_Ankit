@@ -1,0 +1,43 @@
+*{
+    text-decoration: none;
+    
+}
+a{
+    color: black;
+}
+a:hover{
+    color: rgb(137, 1, 147);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+#head{
+    background-color: aqua;
+    background-size: cover;
+    border: 15px solid aqua;
+    margin-bottom: 0%;
+    font-size: x-large;
+}
+footer{
+    background-color: aqua;
+}
+#foot{
+    margin-left: 1.5%;
+    font-size: larger;
+}
+address{
+    /* float: right; */
+    /* margin-left: 75%; */
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: small;
+}
+span{
+    margin-left: 30%;
+    color: rgb(47, 5, 5);
+    font-weight: bolder;
+}
+img:hover{
+    width:11%;
+}
+#icon{
+    background-color: aqua;
+}
