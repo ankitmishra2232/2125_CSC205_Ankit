@@ -1,0 +1,37 @@
+*{
+    text-align: center;
+}
+#heading{
+    
+    color: brown;
+}
+#table{
+    text-align: center;
+}
+.top{
+    color: red;
+    padding-left: 3%;
+    padding-right: 3%;
+    float: left;
+    margin-left: 15%;
+    border: 2px solid blue;
+    margin-left: -1px;
+    margin-right: -1px;
+    /* border-bottom: ; */
+}
+#mid{
+    color: aqua;
+}
+
+.prod_details{
+    margin-right: 25px;
+    margin-left: 25px;
+    color: blueviolet;
+    float: left;
+    border: 2px solid blue;
+    margin-left: -1px;
+    margin-right: -1px;
+    border-bottom: 0ch;
+    /* padding-left: 7%;
+    padding-right: 7%; */
+}
