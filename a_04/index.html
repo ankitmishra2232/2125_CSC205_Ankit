@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Student Regestration</title>
+</head>
+<body>
+    <h2>REGESTRATION FORM</h2>
+    <form >
+        <label for="title">Title: </label>
+        <select name="title" id="title">
+            <option value="mr">Mr.</option>
+            <option value="miss">Miss</option>
+            <option value="mrs">Mrs</option>
+            <option value="sri">Sri</option>
+        </select><br/>
+        <label for="fname" >First Name:&emsp;</label>
+        <input type="text"name="fname" id="fname" placeholder="name" required><br/>
+        <label for="mname" >Middle Name:</label>
+        <input type="text"name="mname" id="mname" placeholder="middle name"required><br/>
+        <label for="lname" >Last Name: &emsp; </label>
+        <input type="text" name="lname" id="lname" placeholder="Last name" required><br/>
+        <label for="fat" >Father's Name:</label>
+        <input type="text" name="fat" id="fat" placeholder="Father's name" required><br/>
+        <label for="mother" >Mother's Name:</label>
+        <input type="text" name="mother" id="mother" placeholder="Mother's name" required><br>
+        <label for="mobile">Phone Number:</label>
+        <input type="tel" name="mobile" placeholder="0000000000" id="mobile"pattern="[0-9]{10}" required><br>
+        <label for="email">Email ID:</label>
+        <input type="email" name="email" id="email" placeholder="abdcef@gmail.com" required><br/>
+        <label for="gender">Gender:</label>
+        <input type="radio" name="gender" id="male">Male
+        <input type="radio" name="gender" id="female">Female
+        <input type="radio" name="gender" id="Trans">Transgender  <br/>
+        <label for="dob">Date Of Birth:</label>
+        <input type="date" id="dob" name="dob" required><br/>
+        <label for="add">Address:</label><br>
+        <textarea rows="2" cols="25" name="comment" placeholder="Enter text here....."></textarea> <br>
+        <input type="submit" value="SubMit">
+        <input type="reset" value="ResEt">
+    </form>
+    <div class = "vertical"></div>
+    <div class="table">
+        <h2>REGESTRATION LIST</h2>
+        <table>
+            <tr>
+                <th>Serial no</th>
+                <th>Name</th>
+                <th>Father's Name</th>
+                <th>Mother's Name</th>
+                <th>Phone</th>
+                <th>Email ID</th>
+                <th>Gender</th>
+                <th>D.O.B.</th>
+                <th>Address</th>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>Ankit Kumar Mishra</td>
+                <td>Pawan Kumar Mishra</td>
+                <td>Alka Mishra</td>
+                <td>7004052008</td>
+                <td>mca.2125@unigoa.ac.in</td>
+                <td>Male</td>
+                <td>26/01/1999</td>
+                <td>Patna, Bihar, India</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+        </table>
+    </div>
+    
+</body>
+</html>

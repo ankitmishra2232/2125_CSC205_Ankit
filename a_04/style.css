@@ -1,0 +1,22 @@
+table, th, td{
+    border: 1px solid black;
+}
+.table{
+    position: absolute;
+    margin-left: 52%;
+    margin-top: -370px;
+    margin-right: 2%;
+}
+.vertical {
+    border-left: 3px solid black;
+    height: 700px;
+    position:absolute;
+    left: 50%;
+    margin-top: -374px;
+}
+h2{
+    text-decoration-line: underline;
+}
+form{
+ margin-left: 8%;
+}
