@@ -1,5 +1,6 @@
 *{
     text-align: center;
+    font-weight: bold;
     
 }
 #heading{
@@ -101,3 +102,137 @@ p{
   margin-right: -1.5px;
   height: 24.5px;
     }
+.serial_no{
+  position: absolute;
+  /* float: left; */
+  width: 13.35%;
+  padding-top: 1%;
+  margin-left: 0px;
+  height: 35px;
+  color: green;
+}
+#one{
+  margin-top: 93px;
+}
+#two{
+  margin-top: 135.94px;
+}
+#three{
+  margin-top: 180px;
+}
+#four{
+  margin-top: 224px;
+}
+#five{
+  margin-top: 268px;
+}
+.name{
+  position: absolute;
+  margin-left: 13.5%;
+  padding-top: 1%;
+  height: 35px;
+  width: 16.60%;
+}
+#name1{
+  margin-top: 92.6px;
+}
+#name2{
+  margin-top: 135.9px;
+}
+#name3{
+  margin-top: 180px;
+}
+#name4{
+  margin-top: 224px;
+}
+#name5{
+  margin-top: 268px;
+}
+.desc{
+  position: absolute;
+  margin-left: 30.5%;
+  padding-top: 1%;
+  height: 35px;
+  width: 17.79%;
+}
+#desc1{
+  margin-top: 92.6px;
+}
+#desc2{
+  margin-top: 135.9px;
+}
+#desc3{
+  margin-top: 180px;
+}
+#desc4{
+  margin-top: 224px;
+}
+#desc5{
+  margin-top: 268px;
+}
+.brand{
+  position: absolute;
+  margin-left: 48.40%;
+  padding-top: 1%;
+  height: 35px;
+  width: 17.2%;
+}
+#brand1{
+  margin-top: 92.6px;
+}
+#brand2{
+  margin-top: 135.9px;
+}
+#brand3{
+  margin-top: 180px;
+}
+#brand4{
+  margin-top: 224px;
+}
+#brand5{
+  margin-top: 268px;
+}
+.quant{
+  position: absolute;
+  margin-left: 65.65%;
+  padding-top: 1%;
+  height: 35px;
+  width: 12.7%;
+}
+#quant1{
+  margin-top: 92.6px;
+}
+#quant2{
+  margin-top: 135.9px;
+}
+#quant3{
+  margin-top: 180px;
+}
+#quant4{
+  margin-top: 224px;
+}
+#quant5{
+  margin-top: 268px;
+}
+.rate{
+  position: absolute;
+  margin-left: 78.6%;
+  padding-top: 1%;
+  height: 35px;
+  width: 15.235%;
+}
+#rate1{
+  margin-top: 92.6px;
+}
+#rate2{
+  margin-top: 135.9px;
+}
+#rate3{
+  margin-top: 180px;
+}
+#rate4{
+  margin-top: 224px;
+}
+#rate5{
+  margin-top: 268px;
+}
