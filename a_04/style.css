@@ -1,22 +1,29 @@
-table, th, td{
+ table, th, td{
     border: 1px solid black;
 }
-.table{
-    position: absolute;
-    margin-left: 52%;
-    margin-top: -370px;
-    margin-right: 2%;
-}
-.vertical {
-    border-left: 3px solid black;
-    height: 700px;
-    position:absolute;
-    left: 50%;
-    margin-top: -374px;
-}
+
 h2{
     text-decoration-line: underline;
+    margin-left: 30%;
 }
 form{
- margin-left: 8%;
-}
+ margin-left: 30%;
+} 
+.split {
+    height: 100%;
+    width: 50%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    overflow-x: hidden;
+    padding-top: 20px;
+  }
+  .left {
+    left: 0;
+    /* background-color: #111; */
+  }
+  
+  .right {
+    right: 0;
+    /* background-color: red; */
+  }
