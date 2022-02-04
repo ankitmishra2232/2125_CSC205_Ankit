@@ -11,38 +11,58 @@
     <div class="split left">
         <h2>REGESTRATION FORM</h2>
         <form >
-            <label for="title">Title: </label>
-            <select name="title" id="title">
+            
+            <label for="fname" >Name: <span>*</span>&emsp;</label>
+            <select name="title" id="forname" class="title">
                 <option value="mr">Mr.</option>
                 <option value="miss">Miss</option>
                 <option value="mrs">Mrs</option>
                 <option value="sri">Sri</option>
-            </select><br/>
-            <label for="fname" >First Name:&emsp;</label>
-            <input type="text"name="fname" id="fname" placeholder="name" required><br/>
-            <label for="mname" >Middle Name:</label>
-            <input type="text"name="mname" id="mname" placeholder="middle name"required><br/>
-            <label for="lname" >Last Name: &emsp; </label>
-            <input type="text" name="lname" id="lname" placeholder="Last name" required><br/>
-            <label for="fat" >Father's Name:</label>
-            <input type="text" name="fat" id="fat" placeholder="Father's name" required><br/>
-            <label for="mother" >Mother's Name:</label>
-            <input type="text" name="mother" id="mother" placeholder="Mother's name" required><br>
-            <label for="mobile">Phone Number:</label>
-            <input type="tel" name="mobile" placeholder="0000000000" id="mobile"pattern="[0-9]{10}" required><br>
-            <label for="email">Email ID:</label>
-            <input type="email" name="email" id="email" placeholder="abdcef@gmail.com" required><br/>
-            <label for="gender">Gender:</label>
+                <option value="smt">Smt</option>
+            </select>
+            <input type="text"name="fname" class="fname" placeholder="first name" required>
+            <input type="text"name="mname" class="mname" placeholder="middle name"required>
+            <input type="text" name="lname" class="lname" placeholder="Last name" required><br/><br/>
+            <label for="fat" >Father's Name:<span>*</span></label>
+            <select name="title" class="title">
+                <option value="mr">Mr.</option>
+                <option value="miss">Miss</option>
+                <option value="mrs">Mrs</option>
+                <option value="sri">Sri</option>
+                <option value="smt">Smt</option>
+            </select>
+            <input type="text" name="fat" class="fname" placeholder="Father's name" required>
+            <input type="text"name="mname" class="mname" placeholder="middle name"required>
+            <input type="text" name="lname" class="lname" placeholder="Last name" required><br/><br/>
+            <label for="mother" >Mother's Name:<span>*</span></label>
+            <select name="title" class="title">
+                <option value="mr">Mr.</option>
+                <option value="miss">Miss</option>
+                <option value="mrs">Mrs</option>
+                <option value="sri">Sri</option>
+                <option value="smt">Smt</option>
+            </select>
+            <input type="text" name="mother" class="fname" placeholder="Mother's name" required>
+            <input type="text"name="mname" class="mname" placeholder="middle name">
+            <input type="text" name="lname" class="lname" placeholder="Last name" required><br/><br>
+            <label for="mobile">Phone Number:<span>*</span></label>
+            <input type="tel" name="mobile" placeholder="0000000000" id="mobile"pattern="[0-9]{10}" required>
+            <label id="mail" for="email">Email ID:<span>*</span></label>
+            <input type="email" name="email" id="email" placeholder="abdcef@gmail.com" required><br/><br/>
+            <label for="gender">Gender:<span>*</span></label>
             <input type="radio" name="gender" id="male">Male
             <input type="radio" name="gender" id="female">Female
-            <input type="radio" name="gender" id="Trans">Transgender  <br/>
-            <label for="dob">Date Of Birth:</label>
-            <input type="date" id="dob" name="dob" required><br/>
-            <label for="add">Address:</label><br>
-            <textarea rows="2" cols="25" name="comment" placeholder="Enter text here....."></textarea> <br>
-            <input type="submit" value="SubMit">
-            <input type="reset" value="ResEt">
+            <input type="radio" name="gender" id="Trans" required>Transgender  <br/> <br/>
+            <label for="dob">Date Of Birth:<span>*</span></label>
+            <input type="date" id="dob" name="dob" required><br/><br/>
+            <label for="add">Address:<span>*</span></label>
+            <input type="text" name="city" id="city" placeholder="city" required>
+            <input type="text" name="state" id="state" placeholder="State" required>
+            <input type="text" name="country" id="country" placeholder="country" required><br/><br/>
+            <input id="submit" type="submit" value="SubMit">
+            <input id="reset" type="reset" value="ResEt">
         </form>
+        <p><span>*</span>Indicates that it should be filled to proceed </p>
     </div>
     
     <!-- <div class = "vertical"></div> -->
@@ -61,18 +81,29 @@
                 <th>Address</th>
             </tr>
             <tr>
-                <td>1</td>
-                <td>Ankit Kumar Mishra</td>
+                <td class="s_no">1</td>
+                <td>Mr. Ankit Kumar Mishra</td>
                 <td>Pawan Kumar Mishra</td>
                 <td>Alka Mishra</td>
                 <td>7004052008</td>
-                <td>mca.2125@unigoa.ac.in</td>
+                <td><a href="mailto:mca.2125@unigoa.ac.in">mca.2125@unigoa.ac.in</a></td>
                 <td>Male</td>
                 <td>26/01/1999</td>
                 <td>Patna, Bihar, India</td>
             </tr>
             <tr>
-                <td>2</td>
+                <td class="s_no" >2</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td class="s_no">3</td>
                 <td></td>
                 <td></td>
                 <td></td>
