@@ -1,0 +1,177 @@
+*{
+    text-decoration: none;
+    /* margin-top: 20px; */
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.left{
+    float: left;
+    /* border-radius: 50px; */
+    background-color: lightgrey;
+    padding-left: 20px;
+    padding-right: 10px;
+    width: 244px;
+    box-shadow: -1px 3px 8px 10px #888888;
+    /* border: solid 10px blue; */
+}
+#ankit{
+    width: 50px;
+    border-radius: 80px;  
+}
+#name{
+    font-size: 20px;
+    font-weight: bold;
+}
+.main{
+    /* padding-top: 50px; */
+    padding-left: 12px;
+}
+span{
+    font-weight: bold;
+}
+.smallicon{
+    width: 20px;
+}
+.Career_objective{
+    /* position: absolute; */
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    width: 385px;
+    margin-left: 290px;
+    /* margin-top: px; */
+    background-color: aliceblue;
+    box-shadow: 2px 2px 8px 10px #888888;
+
+}
+.Education{
+    background-color: aliceblue;
+    /* position: absolute; */
+    padding-bottom: 5px;
+    padding-top: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    width: 385px;
+    margin-left: 290px;
+    margin-top: 15px;
+    box-shadow: 2px 2px 8px 10px #888888;
+    /* text-align: center;     */
+}
+h2{
+    text-align: center;
+    text-decoration: underline;
+}
+h1{
+    text-align: center;
+    text-decoration: underline;
+    font-family: 'Times New Roman', Times, serif;
+}
+.skill{
+    text-align: center;
+}
+.Projects{
+    background-color: aliceblue;
+    /* position: absolute; */
+    padding-bottom: 5px;
+    padding-top: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    width: 385px;
+    margin-left: 290px;
+    margin-top: 15px;
+    box-shadow: 2px 2px 8px 10px #888888;
+    /* margin-top: 725px; */
+}
+.Achievments{
+    background-color: aliceblue;
+    /* position: absolute; */
+    padding-bottom: 5px;
+    padding-top: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    width: 385px;
+    margin-left: 290px;
+    margin-top: 15px;
+    box-shadow: 2px 2px 8px 10px #888888;
+    /* margin-top: 1255px; */
+
+}
+.Publication{
+    background-color: aliceblue;
+    /* position: absolute; */
+    padding-bottom: 5px;
+    padding-top: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    width: 385px;
+    margin-left: 290px;
+    margin-top: 15px;
+    box-shadow: 2px 2px 8px 10px #888888;
+    /* margin-top: 1550px; */
+}
+a{
+    color: black;
+}
+@media screen and (min-width: 800px) {
+    .left{
+        height: 700px;
+    }
+    .Career_objective{
+        height: 300px;
+        font-size: 18px;
+    }
+    .Education{
+        /* padding-left: 500px; */
+        margin-left: 735px;
+        margin-top: -309px;
+        width: 300px;
+   }
+   .Projects{
+       margin-left: 1099px;
+       margin-top: -464px;
+       width: 350px;
+       height: 680px;
+   }
+   .Achievments{
+    margin-top: -360px;
+    height: 357px;
+    font-size: 18px;
+    
+   }
+   .Publication{
+    margin-left: 735px;
+    width: 320px;
+    padding-left: 0px;
+    margin-top: -210px;
+   }
+}
+@media screen and (max-width: 600px) {
+    .left{
+        margin-left: 35px;
+        font-size: 20px;
+        width: 300px;
+    }
+    .Career_objective{
+        margin-top: 800px;
+        margin-left: 35px;
+        width: 290px;
+    }
+    .Education{
+        margin-left: 35px;
+        width: 290px;
+   }
+   .Projects{
+    margin-left: 35px;
+    width: 290px;
+   }
+   .Achievments{
+    margin-left: 35px;
+    width: 290px;
+    
+   }
+   .Publication{
+    margin-left: 35px;
+    width: 290px;
+   }
+
+}
