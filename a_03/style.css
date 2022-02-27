@@ -12,7 +12,8 @@ p{
 }
 #serial_no{
   float: left;
-  width: 10%;
+  min-width: 76px;
+  max-width:76px;
   height: 50px;
   color: blue;
   background-color: white;
@@ -24,7 +25,8 @@ p{
 }
 #pd{
     float: left;
-  width: 27.54%;
+  min-width: 207px;
+  max-width: 207px;
   height: 30px;
   padding-top: 9.5px;
   color: blue;
@@ -37,7 +39,8 @@ p{
 #Quantity{
     height: 50px;
   float: left;
-  width: 10%;
+  min-width: 76px;
+  max-width:76px;
   padding-left: 14px;
   padding-right: 14px; 
   color: blue;
@@ -49,7 +52,8 @@ p{
 #rate{    
     height: 50px;
     float: left;
-    width: 10%;
+    min-width: 76px;
+	max-width:76px;
     padding-left: 14px;
     padding-right: 14px;
   color: blue;
@@ -60,45 +64,48 @@ p{
   margin-left: -8px;
     }
 #name{
-  margin-top: -53px;
+  position: absolute;
+  margin-top: 57px;
   float: left;
-  width: 13%;
+  min-width: 95px;
   color: rgb(255, 0, 0);
   background-color: white;
   /* border-style: ridge; */
   padding-left: 17px;
   padding-top: 9px;
   padding-right: 17px; 
-  margin-left: 13.8%;
+  margin-left: 103.6px;
   margin-right: -1.5px;
   height: 24.5px;
     }
 #Desc{
-    margin-top: -53px;
+	position: absolute;
+    margin-top: 57px;
   float: left;
-  width: 15%;
+  width: 104px;
   color: rgb(255, 0, 0);
   background-color: white;
   /* border-style: ridge; */
   padding-left: 17px;
   padding-top: 9.5px;
   padding-right: 17px; 
-  margin-left: 31%;
+  margin-left: 234px;
   margin-right: -1.5px;
   height: 24.5px;
     
 }
 #Brand{
-    margin-top: -53px;
+    position: absolute;
+    margin-top: 57px;
   float: left;
-  width: 13%;
+  width: 97px;
   color: rgb(255, 0, 0);
   background-color: white;
   /* border-style: ridge; */
   padding-left: 17px;
   padding-top: 9.5px;
   padding-right: 17px; 
-  margin-left: 49.5%;
+  margin-left: 373px;
   margin-right: -1.5px;
   height: 24.5px;
     }
