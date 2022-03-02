@@ -1,0 +1,39 @@
+#ball{
+	background-color:blue;
+	position:relative;
+	width:70px;
+	height:70px;
+	border-radius: 50%;
+	margin-left:700px;
+	animation-name: bounsing;
+	animation-duration:2s;
+	animation-iteration-count:infinite;
+	animation-timing-function: linear;
+}
+@keyframes bounsing{
+	0%{background-color:black; top:0px}
+	25%{background-color:red}
+	50%{background-color:blue; top:380px}
+	75%{background-color:red}
+	100%{background-color:green; top:0px}
+}
+
+#rect{
+	position:absolute;
+	background-color:green;
+	width:1100px;
+	height:40px;
+	margin-top:370px;
+	margin-left:170px;
+	margin-right:100px;
+	
+}
+#button{
+	position: absolute;
+	width:130px;
+	height:50px;
+	background-color:orange;
+	margin-left:650px;
+	margin-top:430px;
+	font-size:20px;
+}

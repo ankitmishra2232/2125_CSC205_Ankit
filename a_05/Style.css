@@ -112,7 +112,7 @@ h1{
 a{
     color: black;
 }
-@media screen and (min-width: 800px) {
+@media screen and (min-width: 1080px) {
     .left{
         height: 700px;
     }
