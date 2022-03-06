@@ -1,0 +1,37 @@
+*{
+    background-color: antiquewhite;
+}
+header{
+    font-size: 265%;
+    font-weight: 800px;
+    text-align: center;
+    background-color: bisque;
+    text-decoration: underline;
+    color: blue;
+}
+h2{
+    text-align: center;
+    margin-top: 35px;
+}
+div{
+    margin-top: 35px;
+    text-align: center;
+    font-size: large;
+}
+input{
+    margin-top: 86px;
+    text-align: center;
+    width: 65px;
+    height: 30px;
+    background-color: wheat;
+    font-size: larger;
+    float: left;
+    margin-left: 45%;
+}
+#button{
+    background-color: greenyellow;
+    width: 86px;
+    height: 35px;
+    margin-left: 3px;
+    font-size: 20px;
+}
