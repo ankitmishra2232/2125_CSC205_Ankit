@@ -1,7 +1,7 @@
 const formEl = document.querySelector("form");
-const tbodyEl = document.querySelector("tbody");
+//const tbodyEl = document.querySelector("tbody");
 const tableEl = document.querySelector("table");
-var array = [];
+var array = [];  
 
 function addingData(e){
     e.preventDefault();
