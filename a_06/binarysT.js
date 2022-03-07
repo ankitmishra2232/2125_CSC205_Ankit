@@ -1,5 +1,5 @@
 function BinaryFunction(arr, x, start, end) {
-      
+	  
     // Base Condition
     if (start > end) 
         return false;
@@ -8,7 +8,7 @@ function BinaryFunction(arr, x, start, end) {
     let mid=Math.floor((start + end)/2);
   
     // Compare mid with given key x
-    if (arr[mid]===x) 
+    if (arr[mid]==x) 
         return true;
          
     // If element at mid is greater than x,
@@ -25,6 +25,7 @@ function BinaryFunction(arr, x, start, end) {
 function Input(){
     let element= document.getElementById("input").value;
     let data = [3, 12, 20, 35, 45, 58, 75, 100, 252];
+	
     if(BinaryFunction(data,element,0,data.length-1))
         alert(element+" is present");
     else
