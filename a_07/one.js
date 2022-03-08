@@ -6,6 +6,7 @@ var array = [];
 function addingData(e){
     e.preventDefault();
     const roll = document.getElementById("roll").value;
+    let trim=roll.trim();
     const forname = document.getElementById("forname").value;
     const name = document.getElementById("name").value;
     const mname = document.getElementById("mname").value;
@@ -25,14 +26,14 @@ function addingData(e){
     const city=document.getElementById("city").value;
     const state=document.getElementById("state").value;
     const country=document.getElementById("country").value;
-    if(array.includes(document.getElementById("roll").value)){
+    if(array.includes(trim)){
         alert("this rollno is already here.")
     }
     else{
-        array.push(document.getElementById("roll").value);
+        array.push(trim);
         tableEl.innerHTML += `
         <tr>
-            <td>${roll}</td>
+            <td>${trim}</td>
             <td>${forname} ${name} ${mname} ${lname}</td>
             <td>${fforname} ${fname} ${fmname} ${flname}</td>
             <td>${mforname} ${mmname} ${mmmname} ${mmlname}</td>
