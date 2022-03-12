@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="./Style.css">
+		<title>Slider</title>
+	</head>
+	<body>
+		
+		<div class="Pictures">
+			<div class="slides">
+				<img src="./first.png" alt="coding qoute">
+			</div>
+			<div class="slides">
+				<img src="./two.jpg" alt="coding quote 2">
+			</div>
+			<div class="slides">
+				<img src="./three.jpg" alt="coding quote 3">
+			</div>
+			<div class="slides">
+				<img src="./four.jpg" alt="coding quote 4">
+			</div>
+			<a class="previous" onclick="plusSlides(-1)">&#10094;</a>
+			<a class="next" onclick="plusSlides(1)" >&#10095;</a>
+		</div> <br/>
+		<div style="text-align:center">
+			<span class="dot" onclick="currentSlide(1)"></span> 
+			<span class="dot" onclick="currentSlide(2)"></span> 
+			<span class="dot" onclick="currentSlide(3)"></span>
+			<span class="dot" onclick="currentSlide(4)"></span> 
+		</div>
+		<script src="./one.js" ></script>
+	</body>
+</html>
+
+
