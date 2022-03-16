@@ -5,34 +5,48 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./style.css">
+    <script src="./one.js" ></script>
     <title>Document</title>
 </head>
 <body>
     <header>Search Words from Paragraph</header><br/>
-    <div id="border">
-        <div id="paragraph">
-            <p>
-                Data is drawn from different sectors, channels, and platforms, including cell phones, social media, e-commerce sites, healthcare surveys, and internet searches. The increase in the amount of data available opened the door to a new field of study based on big data—the massive data sets that contribute to the creation of better operational tools in all sectors. 
-
-    The continually increasing access to data is possible due to advancements in technology and collection techniques. Individuals buying patterns and behavior can be monitored and predictions made based on the information gathered.
-
-    However, the ever-increasing data is unstructured and requires parsing for effective decision-making. This process is complex and time-consuming for companies—hence, the emergence of data science.
-            </p>
+    <main>
+        <div id="border">
+            <div id="paragraph" class="para">
+                <br>
+                    Data is drawn from different sectors, channels, and platforms, including cell phones, social media, e-commerce sites, healthcare surveys, and internet searches. 
+                    The increase in the amount of data available opened the door to a new field of study based on big data—the massive data sets that contribute to the creation of better operational tools in all sectors. 
+                    The continually increasing access to data is possible due to advancements in technology and collection techniques. 
+                    Individuals buying patterns and behavior can be monitored and predictions made based on the information gathered.
+                    However, the ever-increasing data is unstructured and requires parsing for effective decision-making. 
+                    This process is complex and time-consuming for companies—hence, the emergence of data science.
+            </div>
+            <div class="input">
+				<label>
+					<input class="text" id="Stext" type="text" name="search"  >
+				</label>
+				<button class="btn" type="button" value="Submit" onclick="highlight();" >Search</button>
+				
+			</div>
+            <fieldset class="parameter">
+                <legend>PARAMETER</legend>
+                <label>
+                    <input id="case" type="checkbox" name="parameters" value="Case"> Case -Insensitive
+                </label>
+                <label>
+                    <input id="multiS" type="checkbox" name="parameters" value="Multi" checked> Multi-Search    
+                </label>
+                
+            </fieldset>
+            <fieldset class="mode">
+                <legend>MODE</legend>
+                <input type="radio" name="modes" value="match-text" id="caseradio" onclick="unchecked();"  checked> Search Matching text
+                <input type="radio" name="modes" value="exp" id="reg" onclick="unchecked();" > Search regular expression
+            </fieldset>
         </div>
-        <div id="inputs">
-            <input type="search" name="search" id="search">
-            <button type="submit">Search</button>
-        </div>
-        <fieldset>
-            <legend>PARAMETER</legend>
-            <input type="checkbox" name="insensitive" > Case -Insensitive
-            <input type="checkbox" name="multi"> Multi-Search
-        </fieldset>
-        <fieldset>
-            <legend>MODE</legend>
-            <input type="radio" name="matching_Text" checked> Search Matching text
-            <input type="radio" name="matching_Text"> Search regular expression
-        </fieldset>
-    </div>
+    </main>
+    
+    <footer>----SEARCH HERE----</footer>
+    
 </body>
 </html>

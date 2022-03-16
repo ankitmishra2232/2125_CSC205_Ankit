@@ -2,10 +2,11 @@
     background-color: black;
     color: white;
 }
-
 #paragraph{
     margin-left: 5%;
     margin-right: 5%;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: justify;
 }
 #border{
     border: 1px solid red;
@@ -30,4 +31,25 @@ fieldset{
 }
 button{
     background-color: orange;
+    color:black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 17px;
+}
+.text{
+    width: 180px;
+    height: 28px;
+    /* border-radius: 10%; */
+    margin-left: 20%;
+}
+footer{
+    margin-top: 20px;
+    text-align: center;
+}
+.new{
+    background-color: yellow;
+    color: black;
+  }
+.new1{
+	background-color: rgb(169, 22, 22);
+	color: white;
 }
