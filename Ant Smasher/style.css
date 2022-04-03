@@ -1,6 +1,7 @@
 img{
     width: 80px;
-    position: relative;
+    position: absolute;
+    margin-left: 20%;
 }
 
 #game{
@@ -9,11 +10,61 @@ img{
     border: 1.5px solid red;
     margin-left: 20%;
 }
-#kill{
-    animation: block 1s infinite linear;
+#ant{
+    animation-name: Ant;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
 }
-@keyframes block{
-    0%{left: 23px;}
-    50%{bottom: 20px;}
-    100%{bottom: 400px;}
+@keyframes Ant{
+    0%{ top:0px}
+	5%{left:40px}
+	10%{top:80px}
+	15%{left:60px}
+	20%{top:140px}
+	25%{left:80px}
+	30%{top:190px}
+	35%{left:40px}
+	40%{top:230px}
+	45%{left:30px}
+	50%{top:280px}
+    55%{left:50px}
+	60%{top:320px}
+	65%{left:40px}
+	70%{top:380px}
+	75%{left:40px}
+	80%{top:420px}
+	85%{left:40px}
+	90%{top:460px}
+	95%{left:70px}
+	100%{top:580px}    
+}
+#bee{
+    animation-name: bee;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;   
+}
+@keyframes bee{
+    0%{ top:0px}
+	5%{left:20px}
+	10%{top:80px}
+	15%{left:100px}
+	20%{top:140px}
+	25%{left:190px}
+	30%{top:190px}
+	35%{left:230px}
+	40%{top:230px}
+	45%{left:180px}
+	50%{top:280px}
+    55%{left:50px}
+	60%{top:320px}
+	65%{left:350px}
+	70%{top:380px}
+	75%{left:320px}
+	80%{top:420px}
+	85%{left:200px}
+	90%{top:460px}
+	95%{left:60px}
+	100%{top:580px}    
 }
