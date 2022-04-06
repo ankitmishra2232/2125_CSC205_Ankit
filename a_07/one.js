@@ -7,7 +7,7 @@ function addingData(e){
     e.preventDefault();
     const roll = document.getElementById("roll").value;
     const forname = document.getElementById("forname").value;
-    const name = document.getElementById("name").value;
+    const name = document.getElementById("name").value.trim();
     const mname = document.getElementById("mname").value;
     const lname = document.getElementById("lname").value;
     const fforname = document.getElementById("fforname").value;
