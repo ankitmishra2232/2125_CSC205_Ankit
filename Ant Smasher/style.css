@@ -1,6 +1,6 @@
 img{
     width: 80px;
-    position: absolute;
+    position: relative;
     margin-left: 20%;
 }
 
@@ -9,6 +9,7 @@ img{
     height: 600px;
     border: 1.5px solid red;
     margin-left: 20%;
+	overflow:hidden;
 }
 #ant{
     animation-name: Ant;
