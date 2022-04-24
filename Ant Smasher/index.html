@@ -8,16 +8,44 @@
     <title>ANT SMASHER</title>
 </head>
 <body>
-    <div id="game">
-        <div id="kill" >
-            <img id="ant" onclick="vanish()" src="./pngfind.com-ant-png-180029.png" alt="Ant image" srcset="">
+    <header>Ant Smasher</header>
+    <main>
+        <div class="score">
+            <div class="box">
+                <div>Score: <span class="val">0</span></div>
+                
+            </div>
+            <div class="points">
+                <!-- image of ant and bees and points for ant smashing -->
+                <div class="ant">
+                    <p><span><img class="emage" src="./pngfind.com-ant-png-180029.png" alt=""></span> 10 pts </p>
+                </div>
+                <div class="bee">
+                    <p><span><img class="emage" src="./pngfind.com-bee-png-582968.png" alt=""></span> Game Over</p>
+                </div>
+            </div>
         </div>
-    
-        <div id="notkill">
-            <img id="bee" src="./pngfind.com-bee-png-582968.png" alt="bee" srcset="">
+        <div id="game">
+            <div class="kill" >
+                <img id="ant" class="ant" onclick="Vanish()" src="./pngfind.com-ant-png-180029.png" alt="Ant image" srcset="">
+            </div>
+        
+            <div class="notkill">
+                <img id="bee" class="bee" onclick="gameover()" src="./pngfind.com-bee-png-582968.png" alt="bee" srcset="">
+            </div>
         </div>
-    </div>
+        <div>
+            <button id="button" >
+                <a id="quit" onclick="gameover()">Quit Game</a>
+            </button>
+        </div>
+        <div id="gameOverScreen">
+            <p id="Printscore"></p>
+            <button> <a href="./startgame.html">Start Screen</a></button>
+        </div>
+    </main>
     
+    <footer>FY-MCA "<span>2125</span>"</footer>
 </body>
 <script src="./script.js"></script>
 </html>

@@ -1,23 +1,103 @@
+a{
+	text-decoration: none;
+}
 img{
     width: 80px;
     position: relative;
     margin-left: 20%;
 }
+#quit{
+	text-decoration: none;
+}
+#button{
+	position: absolute;
+	width: 130px;
+	height: 30px;
+	margin-left: 600px;
+	margin-top: -80px;
+
+}
+#gameOverScreen{
+	display: none;
+	position: absolute;
+	margin-top: -610px;
+	background-image: url("./Game-over.jpg");
+	border: 5px solid grey;
+	height: 600px;
+	width: 730px;
+	color: azure;
+	font-size: xx-large;
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#gameOverScreen button{
+	background-color: tomato;
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	border-radius: 20px;
+	color: blue;
+	width: 200px;
+	height: 50px;
+	font-size: 30px;
+}
+#Printscore{
+	padding-top: 200px;
+	padding-left: 300px;
+}
+header{
+	background-color: black;
+	color: aliceblue;
+	text-align: center;
+	height: 50px;
+	font-size: xx-large;
+}
+footer{
+	background-color: black;
+	color: aliceblue;
+	text-align: center;
+	height: 50px;
+	font-size: xx-large;
+}
+.emage{
+	width: 40px;
+}
 
 #game{
+	background-image:url(./background.jpg);
     width: 400px;
     height: 600px;
-    border: 1.5px solid red;
-    margin-left: 20%;
+    border: 5px solid red;
+    margin-left: 170px;
 	overflow:hidden;
+
+}
+.points{
+	margin-top: -50px;
+	margin-left: 540px;
+	position: absolute;
+	width: 200px;
+    height: 150px;
+	/* border: 1.5px solid rgb(54, 19, 169); */
+}
+.points p{
+	font-size:20px;
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.score{
+	position: absolute;
+	font-size: xx-large;
+	width: 136px;
+	padding-left: 10px;
+	height: 50px;
+	margin-top: 250px;
+	/* border: 1.5px solid red; */
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 #ant{
-    animation-name: Ant;
-    animation-duration: 5s;
+    animation-name: Ant1;
+    animation-duration: 3s;
     animation-iteration-count: infinite;
     animation-timing-function: linear;
 }
-@keyframes Ant{
+@keyframes Ant1{
     0%{ top:0px}
 	5%{left:40px}
 	10%{top:80px}
@@ -40,32 +120,57 @@ img{
 	95%{left:70px}
 	100%{top:580px}    
 }
+@keyframes Ant2{
+    0%{ top:0px}
+	1%{left:30px}
+	5%{left:70px}
+	10%{top:90px}
+	15%{left:60px}
+	20%{top:180px}
+	25%{left:80px}
+	30%{top:200px}
+	35%{left:40px}
+	40%{top:230px}
+	45%{left:30px}
+	50%{top:280px}
+    55%{left:70px}
+	60%{top:320px}
+	65%{left:40px}
+	70%{top:380px}
+	75%{left:40px}
+	80%{top:420px}
+	85%{left:40px}
+	90%{top:460px}
+	95%{left:70px}
+	100%{top:880px}    
+}
+
 #bee{
-    animation-name: bee;
+    animation-name: bee1;
     animation-duration: 5s;
     animation-iteration-count: infinite;
     animation-timing-function: linear;   
 }
-@keyframes bee{
+@keyframes bee1{
     0%{ top:0px}
 	5%{left:20px}
 	10%{top:80px}
-	15%{left:100px}
+	15%{left:50px}
 	20%{top:140px}
 	25%{left:190px}
 	30%{top:190px}
-	35%{left:230px}
+	35%{left:180px}
 	40%{top:230px}
 	45%{left:180px}
-	50%{top:280px}
+	50%{top:180px}
     55%{left:50px}
 	60%{top:320px}
-	65%{left:350px}
-	70%{top:380px}
-	75%{left:320px}
+	65%{left:200px}
+	70%{top:280px}
+	75%{left:20px}
 	80%{top:420px}
 	85%{left:200px}
-	90%{top:460px}
+	90%{top:260px}
 	95%{left:60px}
 	100%{top:580px}    
 }
