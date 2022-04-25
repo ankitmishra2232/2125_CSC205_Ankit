@@ -101,5 +101,6 @@ def delete(id):
             db.session.commit()
             return redirect('/')
     return render_template('delete.html')
- 
-app.run(host='localhost', port=5000)
+
+if __name__ == '__main__':
+    app.run(debug=True, host='localhost', port=5000)
