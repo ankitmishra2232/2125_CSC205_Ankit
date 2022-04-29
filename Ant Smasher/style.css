@@ -1,9 +1,12 @@
+main{
+	background-image: url("./mainBack.jpg");
+}
 a{
 	text-decoration: none;
 }
 img{
     width: 80px;
-    position: relative;
+    position: absolute;
     margin-left: 20%;
 }
 #quit{
@@ -11,36 +14,56 @@ img{
 }
 #button{
 	position: absolute;
+	font-size: 25px;
 	width: 130px;
-	height: 30px;
-	margin-left: 600px;
-	margin-top: -80px;
-
+	height: 40px;
+	margin-left: 16px;
+	margin-top: -50px;
+	background-color: rgba(231, 16, 16,0.75);
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	border-radius: 60px;
+	border-color: green;
 }
 #gameOverScreen{
 	display: none;
 	position: absolute;
-	margin-top: -610px;
-	background-image: url("./Game-over.jpg");
+	margin-top: -600px;
+	background-image: url("./Game-over.webp");
 	border: 5px solid grey;
-	height: 600px;
+	height: 590px;
 	width: 730px;
 	color: azure;
 	font-size: xx-large;
 	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
+h2{
+	padding-top: 100px;
+	padding-left: 40px;
+	font-size: 56px;
+	color: red;
+	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
 #gameOverScreen button{
-	background-color: tomato;
+	background-color: rgb(218, 201, 16);
 	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 	border-radius: 20px;
 	color: blue;
 	width: 200px;
 	height: 50px;
-	font-size: 30px;
+	font-size: 35px;
 }
 #Printscore{
-	padding-top: 200px;
-	padding-left: 300px;
+	font-size: 48px;
+	padding-top: 80px;
+	padding-left: 200px;
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#restart{
+	margin-left: 200px;
+
+}
+#startscreen{
+	margin-left: 60px;
 }
 header{
 	background-color: black;
@@ -56,26 +79,23 @@ footer{
 	height: 50px;
 	font-size: xx-large;
 }
-.emage{
-	width: 40px;
+.scoreVal{
+	width: 60px;
+	margin-top: -150px;
+	margin-left: 580px;
+}
+#scoreBee{
+	padding-top: 120px;
 }
 
 #game{
 	background-image:url(./background.jpg);
-    width: 400px;
-    height: 600px;
+    width: 420px;
+    height: 580px;
     border: 5px solid red;
-    margin-left: 170px;
+    margin-left: 175px;
 	overflow:hidden;
 
-}
-.points{
-	margin-top: -50px;
-	margin-left: 540px;
-	position: absolute;
-	width: 200px;
-    height: 150px;
-	/* border: 1.5px solid rgb(54, 19, 169); */
 }
 .points p{
 	font-size:20px;
@@ -85,58 +105,172 @@ footer{
 	position: absolute;
 	font-size: xx-large;
 	width: 136px;
-	padding-left: 10px;
+	padding-left: 15px;
 	height: 50px;
 	margin-top: 250px;
-	/* border: 1.5px solid red; */
 	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
+#gamegaya{
+	position: absolute;
+	color: rgb(2, 21, 21);
+	margin-top: -200px;
+	margin-left: 620px;
+	font-size: xx-large;
+	font-weight: bolder;
+	color: rgb(240, 18, 18);
+}
+#chiti{
+	position: absolute;
+	color: rgb(2, 21, 21);
+	margin-top: -370px;
+	margin-left: 610px;
+	font-size: x-large;
+	font-weight: bolder;
+	color: green;
+}
+.val{
+	padding-left: 32px;
+	text-decoration: underline;
+	color: blue;
+	font-size: xx-large;
+	font-weight: 700;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.ant{
+	cursor: grab;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
 #ant{
 	display: none;
     animation-name: Ant1;
-    animation-duration: 13s;
-    animation-iteration-count: infinite;
-    animation-timing-function: linear;
+    animation-duration: 12s;	
 }
 #ant01{
-    animation-name: Ant1;
-    animation-duration: 13s;
-    animation-iteration-count: infinite;
-    animation-timing-function: linear;
+    animation-name: Ant;
+    animation-duration: 9s;
 }
-@keyframes Ant1{
-    0%{ top:0px}
-	5%{left:40px}
-	10%{top:80px}
-	15%{left:60px}
-	20%{top:140px}
-	25%{left:80px}
-	30%{top:190px}
-	35%{left:40px}
-	40%{top:230px}
-	45%{left:30px}
-	50%{top:280px}
-    55%{left:50px}
-	60%{top:320px}
-	65%{left:40px}
-	70%{top:380px}
-	75%{left:40px}
-	80%{top:420px}
-	85%{left:40px}
-	90%{top:460px}
-	95%{left:70px}
-	100%{top:580px}    
+#ant02{
+	display: none;
+    animation-name: Ant2;
+    animation-duration: 7s;
 }
-
-#bee{
-    animation-name: bee1;
+#ant03{
+	display: none;
+    animation-name: Ant3;
     animation-duration: 15s;
+}
+#ant04{
+	display: none;
+    animation-name: Ant4;
+    animation-duration: 3s;
+}
+#ant05{
+	display: none;
+    animation-name: Ant5;
+    animation-duration: 7s;
+}
+#ant06{
+    animation-name: Ant6;
+    animation-duration: 6s;
+}
+#ant07{
+	display: none;
+    animation-name: Ant7;
+    animation-duration: 6s;
+}
+#ant08{
+    animation-name: Ant8;
+    animation-duration: 8s;
+}
+@keyframes Ant1{   
+	0%{top:55px;}
+	100%{top: 590px;}
+}
+@keyframes Ant{ 
+	0%{top: 55px;}
+	0%{left: 10%;} 
+	50%{left: 10%;}
+	100%{left: 10%;}
+	100%{top: 590px;}
+}
+@keyframes Ant2{ 
+	0%{top: 55px;}
+	0%{left: 15%;} 
+	50%{left: 15%;}
+	100%{left: 15%;}
+	100%{top: 590px;}
+}
+@keyframes Ant3{   
+	0%{top: 55px;}
+	0%{left: 17%;} 
+	50%{left: 17%;}
+	100%{left: 17%;}
+	100%{top: 590px;}
+}
+@keyframes Ant4{   
+	0%{top: 55px;}
+	0%{left: 7%;} 
+	50%{left: 7%;}
+	100%{left: 7%;}
+	100%{top: 590px;}
+}
+@keyframes Ant5{   
+	0%{top: 55px;}
+	0%{left: 35%;} 
+	50%{left: 35%;}
+	100%{left: 35%;}
+	100%{top: 590px;}
+}
+@keyframes Ant6{   
+	0%{top: 55px;}
+	0%{left: 5%;} 
+	50%{left: 5%;}
+	100%{left: 5%;}
+	100%{top: 590px;}
+}
+@keyframes Ant7{   
+	0%{top: 55px;}
+	0%{left: 50%;} 
+	50%{left: 50%;}
+	100%{left: 50%;}
+	100%{top: 590px;}
+}
+@keyframes Ant8{   
+	0%{top: 55px;}
+	0%{left: 40%;} 
+	50%{left: 40%;}
+	100%{left: 40%;}
+	100%{top: 590px;}
+}
+.bee{
+	cursor: grab;
     animation-iteration-count: infinite;
     animation-timing-function: linear;   
 }
+#bee0{
+	
+    animation-duration: 15s;
+	display: none;
+    animation-name: bee1;	
+}
+#bee1{
+	
+    animation-duration: 10s;
+	display: none;
+    animation-name: bee2;	
+}
+#bee2{
+	
+    animation-duration: 8s;
+	display: none;
+    animation-name: bee3;	
+}
+
 @keyframes bee1{
-    0%{ top:0px}
-	5%{left:20px}
+    0%{ top:55px}
+	0%{left:30px}
 	10%{top:80px}
 	15%{left:50px}
 	20%{top:140px}
@@ -150,10 +284,57 @@ footer{
 	60%{top:320px}
 	65%{left:200px}
 	70%{top:280px}
-	75%{left:20px}
+	75%{left:40px}
 	80%{top:420px}
 	85%{left:200px}
 	90%{top:260px}
 	95%{left:60px}
-	100%{top:580px}    
+	100%{top:590px}    
+}
+@keyframes bee2{
+    0%{ top:55px}
+	0%{left:180px}
+	10%{top:80px}
+	15%{left:100px}
+	20%{top:140px}
+	25%{left:190px}
+	30%{top:190px}
+	35%{left:100px}
+	40%{top:230px}
+	45%{left:80px}
+	50%{top:180px}
+    55%{left:35px}
+	60%{top:320px}
+	65%{left:250px}
+	70%{top:280px}
+	75%{left:200px}
+	80%{top:420px}
+	85%{left:150px}
+	90%{top:260px}
+	95%{left:260px}
+	100%{top:590px}    
+}
+@keyframes bee3{
+	0%{ top:55px}
+	0%{ left: 370px;}
+	10%{top: 90px;}
+	10%{left: 300px;}
+	20%{top: 150px;}
+	20%{left: 270px;}
+	30%{top: 200px;}
+	30%{left: 200px;}
+	40%{top: 300px;}
+	40%{left: 300px;}
+	50%{top: 500px;}
+	50%{left: 240px;}
+	60%{top: 300px;}
+	60%{left: 150px;}
+	70%{top: 200px;}
+	70%{left: 50px;}
+	80%{top: 350px;}
+	80%{left: 250px;}
+	90%{top: 200px;}
+	90%{left: 180px;}
+	100%{ top:55px}
+	100%{ left: 370px;}
 }
