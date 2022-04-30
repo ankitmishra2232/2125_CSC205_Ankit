@@ -1,14 +1,16 @@
 *{
     text-decoration: none;
 }
-
+main{
+    margin-top: 45px;
+}
 img{
     max-width: 100%;
     max-height: 100%;
     display: block;
 }
 div{
-    width: 758px;
+    width: 720px;
 }
 header{
 	background-color: black;
@@ -29,7 +31,7 @@ footer{
     width: 190px;
     height: 50px;
     margin-top: -105px;
-    margin-left: 300px;
+    margin-left: 280px;
     font-size: 30px;
     background-color: red;
     border-radius: 70px;
